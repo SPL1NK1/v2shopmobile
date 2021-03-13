@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 58px;
+  background: #FFFFFF;
+}
+
+.header .container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__inner .nav {
+  padding-top: 15px;
+}
+
+.header__inner .nav__link {
+  font-family: 'Khula', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+  padding-left: 100px;
+}
+
+.header__inner .line {
+  position: absolute;
+  margin-top: 75px;
+  width: 950px;
+  border: 1px solid #828282;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 700px;
+}
+
+.intro .container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.intro .container .intro__inner {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.intro .container .intro__inner .intro__title {
+  font-family: 'Khula', sans-serif;
+  position: absolute;
+  width: 125px;
+  height: 120px;
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: #000000;
+  padding-top: 40px;
+}
+
+.intro .container .intro__inner .intro__sub {
+  position: absolute;
+  width: 155px;
+  height: 45px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  margin-top: -55px;
+  margin-left: 400px;
+}
+
+.intro .container .intro__inner .intro__photo {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -400px;
+}
+
+.about {
+  width: 100%;
+  height: 500px;
+  background: #F6F6F6;
+}
+
+.about .container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.about .about__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  width: 485px;
+  height: 210px;
+  margin-left: 25%;
+  padding-top: 100px;
+}
+
+.about .about__title {
+  font-family: 'Khula', sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+}
+
+.about .about__text {
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  padding-top: 30px;
+}
+
+.skills {
+  width: 100%;
+  height: 610px;
+  background: #FFFFFF;
+}
+
+.skills .container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.skills .skills__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  padding-top: 90px;
+  padding-left: 370px;
+}
+
+.skills .skills__title {
+  position: absolute;
+  padding-left: 70px;
+  font-family: 'Khula', sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+}
+
+.skills .skills__title_sub {
+  position: absolute;
+  font-family: 'Khula', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  padding-top: 40px;
+  width: 220px;
+}
+
+.skills .skills__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: -350px;
+}
+
+.skills .skills__Icon {
+  padding-top: 200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 50px;
+}
+
+.skills .skills__Icon_sub {
+  font-family: 'Khula', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+
+.portofolio {
+  width: 100%;
+  height: 2450px;
+  background: #F6F6F6;
+}
+
+.portofolio .container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.portofolio .portofolio__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.portofolio .portofolio__title {
+  position: absolute;
+  font-family: 'Khula', sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  padding-top: 110px;
+  margin-left: 425px;
+}
+
+.portofolio .portofolio__photo {
+  padding-top: 200px;
+}
+
+.portofolio .portofolio__sub {
+  position: absolute;
+  font-family: 'Khula', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  padding-top: 800px;
+  margin-left: 360px;
+}
+
+.portofolio .portofolio__sub2 {
+  padding-top: 45px;
+  font-family: 'Khula', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  margin-left: 360px;
+}
+
+.portofolio .portofolio__sub3 {
+  padding-top: 45px;
+  font-family: 'Khula', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  margin-left: 360px;
+}
+
+.contact {
+  width: 100%;
+  height: 625px;
+  background: #FFFFFF;
+}
+
+.contact .container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.contact .contact__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  padding-left: 325px;
+  padding-top: 115px;
+}
+
+.contact .contact__title {
+  font-family: 'Khula', sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+}
+
+.contact .contact__sub_title {
+  font-family: 'Khula', sans-serif;
+  width: 275px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  padding-top: 20px;
+}
+
+.contact .contact__btn {
+  padding-top: 40px;
+}
+
+.contact .btn {
+  font-family: 'Khula', sans-serif;
+  width: 180px;
+  height: 45px;
+  background: #000000;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 50px;
+  border: none;
+}
+
+.contact .contact__Icon {
+  padding-top: 100px;
+}
+
+.contact .item__Icon {
+  margin-left: 20px;
+}
+
+.contact .footer__sub_text {
+  padding-top: 45px;
+  font-family: 'Khula', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+  }
+}
+
+@media (max-width: 972px) {
+  .about {
+    width: 972px;
+  }
+}
+
+@media (max-width: 972px) {
+  .portofolio {
+    width: 972px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
